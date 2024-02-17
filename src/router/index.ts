@@ -3,7 +3,7 @@ import IndexViewVue from "@/views/IndexView.vue";
 import NumberViewVue from "@/views/NumberView.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory("/test/"),
   routes: [
     {
       path: "/",
