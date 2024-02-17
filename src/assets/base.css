@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  min-height: 100dvh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  background: url("/public/assets/app-bg.png");
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.is-hidden {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.is-shown {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
